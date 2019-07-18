@@ -34,7 +34,6 @@ function f3(){
 f3(); // 2
 </code>
 </pre>
-<br/>
 ###  Scoping rules(作用域)
 <pre>
 <code>
@@ -92,7 +91,6 @@ for(var i = 0; i < 10; i++){
 } // 输出 0 1 2 3 4 5 6 7 8 9
 </code>
 </pre>
-<br/>
 ###  let
 <pre>
 <code>
@@ -175,7 +173,6 @@ function sumMatrix3(matrix: number[][]){
 } // 10 10 10 10 10 10 10 10 10 10 
 </code>
 </pre>
-<br/>
 ###  const 
 <pre>
 <code>
