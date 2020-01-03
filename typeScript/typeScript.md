@@ -1,0 +1,2 @@
+- [x] [type](https://github.com/Sally-he/Learing/blob/2e4731f4d4c45f3268cb7ac8f0c87d170dccde89/typeScript/type.md)
+- [x] [variableDeclarations](https://github.com/Sally-he/Learing/blob/1a835de72eaa1505985b76f2a6f9603ba76ecf37/typeScript/variableDeclarations.md)
