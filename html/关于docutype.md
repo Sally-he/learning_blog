@@ -24,7 +24,7 @@
         - 在怪异模式下,图片底部没有留白 
      ![怪异模式](https://github.com/Sally-he/Learing/blob/master/img/怪异模式.png) [代码](https://github.com/Sally-he/Learing/blob/master/html/docutype_test2.html)
        -  原因： CSS中的`vertical-align`属性用于设置对象的初值对其方式，定义了行内元素的`baseline`和所在行的`baseline`初值对其， 而在表格元素中,可以设置单元格里面的内容的对其方式,取值有baseline,bottom,top,middle等。![line-height](https://user-gold-cdn.xitu.io/2017/12/28/1609c3b844a0e9e9?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
-
+  
       - 在标准模式下,`inline`元素和`table cell`元素的`verticle-aligh`属性默认取值是`baseline`,这也是我们有时会看到图片底部会有几像素留白的原因.但是当`inline`元素内只有图,并且处于怪异模式的时候,`inline`元素里的元素`vertical-aligh`属性默认值是`bottom`,此时就不会有白条的效果
       - 参看链接
         - [stackoverflow](https://stackoverflow.com/questions/4904668/html5-vertical-spacing-issue-with-img)
