@@ -1,0 +1,28 @@
+- 功能类
+  - html-webpack-plugin:编译解析html
+  - copy-webpack-plugin: 拷贝资源文件
+  - webpack-manifest-plugin && assets-webpack-plugin: 生成编译结果的资源但，只是资源单的数据结构不一致而言
+  - clean-webpack-plugin: 编译之前清理指定目录指定内容
+  - compression-webpack-plugin： 提供带Content-Encodeing编码的压缩版的资源
+  - progress-bar-webpack-plugin： 编译进度条插件 
+  - 
+- 代码相关类
+  - webpack.ProvidePlugin: 自动加载模块
+  - webpack.DefinePlguin: 定义全局变量
+  - mini-css-ectract-plugin && extract-test-webpack-plugin: 提取css样式
+  - 
+- 编译结果优化类
+  - webpack.lgnorePlugin: 忽略regExp匹配的模块
+  - uglifyjs-webpack-plugin: 代码丑化，用于js 压缩
+  - optimize-css-assets-webpacl-plugin： css 压缩
+  - webpack-md5-hash： 使你的chunk根据内容生成md5，用这个md5取代 webpack chunkhash。
+  - splitChunkPlguin: 用于chunk切割。
+- 编译优化类
+  - DllPlugin && DllReferencePlugin && autodll-webpack-plugin
+  - happypack && thread-loader: 多线程编译，加快编译速度
+  - hard-source-webpack-plugin&& cache-loader: 使用模块编译缓存，加快编译速度
+- 编译分析类
+  - webpack-bundle-analyzer： 编译模块分析插件
+  - stats-webpack-plugin && PrefetchPlugin： 将构建的统计信息写入文件
+  - speed-measure-webpack-plugin: 统计编译过程，各个loader和plugin的使用时间
+- 

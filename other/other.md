@@ -1,1 +1,2 @@
 - [x] [Nginx_Mac安装](https://github.com/Sally-he/Learing/blob/55b606eb570f3ed11e73477a2bcfd1121f23e89c/other/Nginx_Mac安装.md)
+- [ ] [npm和yarn的区别](https://zhuanlan.zhihu.com/p/27449990)
